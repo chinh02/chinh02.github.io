@@ -3,18 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Chinh
+middle_name: T.
+last_name: Le
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Chinh T. Le, a researcher interested in AI agent security,
+  privacy, and software engineering.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: AI agents, agent security, privacy, software engineering, multimodal AI, GUI agents
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -50,7 +50,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Chinh T. Le
+blog_description: Notes on AI and software engineering
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -121,13 +121,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -187,6 +181,19 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _books/
+  - _news/
+  - _posts/
+  - _projects/
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -263,8 +270,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Le]
+  first_name: [Chinh T., Chinh, C. T.]
 
   style: apa
   locale: en

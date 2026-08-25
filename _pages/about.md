@@ -2,33 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Intern at <a href='https://www.smu.edu.sg/'>Singapore Management University</a> · Master's Student in Data Science & Analytics
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: ava.jpg
+  image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a master's student in the [Data Science & Analytics track](https://masters.smu.edu.sg/programme/master-of-it-in-business) of the Master of IT in Business program at [Singapore Management University](https://www.smu.edu.sg/), supported by the [Vingroup Young Talent Scholarship](https://news.smu.edu.sg/news/2019/08/16/vingroup-partners-smu-nurture-technology-talents-sg10-million-gift). I also have the opportunity to work with [Prof. Yintong Huo](https://yintonghuo.github.io/) on research at the intersection of AI and software engineering. My current project studies security and privacy in LLM-powered agents, and I am broadly interested in making AI systems safer, more reliable, and more privacy-aware.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joining SMU, I worked as a data engineer in Vietnam's banking industry, where I contributed to data platforms and cloud infrastructure. My research interests are still evolving, and I am keen to learn from new problems and collaborations across AI and software engineering. I hope to continue building research experience and explore PhD opportunities in computer science.
